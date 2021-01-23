@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passwordganerator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="pw-header">
+      <span class="pw-container" id="pwEl">293849addd579</span>
+    </div>
+
+    <div class="pw-body">
+
+      <div class="contain-control">
+          <label for="len">Password Length</label>
+          <input type="number" min="2" max="30" id="len">
+      </div>
+
+        <div class="contain-control">
+            <label for="upper">Contain Uppercase Letters</label>
+            <input type="checkbox" id="upper" class="input">
+        </div>
+
+        <div class="contain-control">
+            <label for="lower">Contain Lowercase Letters</label>
+            <input type="checkbox" id="lower" class="input">
+        </div>
+
+        <div class="contain-control">
+           <label for="num">Contain Numbers</label>
+           <input type="checkbox"  id="num" class="input">
+        </div>
+
+        <div class="contain-control">
+           <label for="sym">Contain Symbols</label>    
+           <input type="checkbox" id="sym" class="input">
+        </div>
+      
+    </div>
+    <div type="" class="btn" id="btn">Ganerate Password</div>
+  </div>
+  
+
+</body>
+</html>
